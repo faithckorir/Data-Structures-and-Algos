@@ -15,6 +15,7 @@ object HackerRankSinglyLinkedList {
      */
     fun printLinkedList(head: SinglyLinkedListNode?) {
         var current = head
+
         while (current != null) {
             println(current.data)
             current = current.next
@@ -22,6 +23,7 @@ object HackerRankSinglyLinkedList {
     }
 
     private val scanner = Scanner(System.`in`)
+
     @JvmStatic
     fun main(args: Array<String>) {
         val llist = SinglyLinkedList()
